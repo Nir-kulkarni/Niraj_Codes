@@ -1,0 +1,117 @@
+#include<stdio.h>
+int main()
+{int i;
+int ans1,ans2,ans3,ans4,ans5;
+int point1,point2,point3,point4,point5,point6,point7,point8,point9,point10;
+int point01,point02,point03,point04,point05,point06,point07,point08,point091;
+int total1,total2,total3;
+
+printf("welcome to the game\n\n");
+printf("press 1 to start the game\n");
+printf("press 0 to quit the game\n");
+scanf("%d",&i);
+
+if(i==1)
+{
+    printf("the game has started\n\n");
+}
+else
+{
+    printf("the game isend\n\n");
+
+}
+ if(i==1)
+ {
+    printf("who is the founder of c languge\n\n");
+    printf("1)guido van rossum\n");
+    printf("2)dennis ritchie\n");
+    printf("3)newton\n");
+    printf("4)elon musk\n");
+    printf("enter your answer : ");
+    scanf("%d",&ans1);
+    if (ans1==2)
+    {
+        printf("correct answer\n");
+        point1=5;
+        printf("you have scored %d point\n",point1);
+    }
+else
+{
+    printf("wrong answer\n");
+    point01=0;
+    printf("you have scored %d point\n",point01);
+}
+  
+ printf("which languge is mother of all languge\n\n");
+ printf("1)python\n");
+ printf("2)java\n");
+ printf("3)c languge\n");
+ printf("4)c++ languge\n");
+ printf("enter your answer : ");
+ scanf("%d",&ans2);
+ if(ans2==3)
+ {printf("correct answer\n");
+ point2=5;
+ printf("you have scored %d point\n",point2);
+ }
+ else
+{
+    printf("wrong answer\n");
+    point02=0;
+    printf("you have scored %d point\n",point02);
+
+}
+   printf("who is founder of goggle\n\n");
+   printf("1)larry page and sergey brin\n");
+   printf("2)mark zukarberg\n");
+   printf("3)ambani\n");
+   printf("4)sunder pichai\n");
+   printf("enter your answer : ");
+   scanf("%d",&ans3);
+   if(ans3==1)
+   {
+    printf("answer is coorect\n");
+    point3=5;
+    printf("you have scored %d point\n",point3);
+}
+else
+{
+   printf("wrong answer\n");
+   point03=0;
+   printf("you have scored %d point\n",point03);
+ }
+   printf("which is first search engine\n\n");
+   printf("1)goggle\n");
+   printf("2)brave\n");
+   printf("3)one dm \n");
+   printf("4)archie\n");
+   printf("enter your answer : ");
+   scanf("%d",&ans3);
+   if(ans4=4)
+   {
+    printf("answer is coorect\n");
+    point4=5;
+    printf("you have scored %d point\n",point4);
+   }
+   else
+   {
+    printf("wrong answer\n");
+   point04=0;
+   printf("you have scored %d point\n",point04);
+   }
+   printf("who is first programer\n\n");
+   printf("1)ada lovelace\n");
+   printf("2)bill gates\n");
+   printf("3)marie curie \n");
+   printf("4)michel faraday\n");
+   printf("enter your answer : ");
+   scanf("%d",&ans5);
+   if(ans5=1)
+   {
+    printf("answer is coorect\n");
+    point5=5;
+    printf("you have scored %d point\n",point5);
+   }
+   }
+   return 0;
+}
